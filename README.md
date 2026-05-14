@@ -38,7 +38,6 @@ Restart OpenCode after changing plugin config.
 ## Behavior
 
 - `/goal <objective>` creates or replaces the session goal and starts work.
-- `/goal` runs on the currently selected session agent unless the command is explicitly overridden in config.
 - `/goal --budget 100k <objective>` creates a goal with an approximate token budget.
 - `/goal status` shows the current goal.
 - `/goal pause` stops automatic continuation.
