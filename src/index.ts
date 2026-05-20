@@ -278,7 +278,6 @@ export const GoalPlugin: Plugin = async ({ client, worktree, directory }) => {
       config.command.goal ??= {
         template: GOAL_COMMAND_TEMPLATE,
         description: "persistent goal workflow: create, status, pause, resume, clear",
-        agent: "build",
       }
     },
 
